@@ -1,0 +1,14 @@
+{
+  "id": "zoommod",
+  "version": "1.0.0",
+  "name": "Zoom Mod",
+  "description": "A mod that allows changing the zoom level.",
+  "authors": ["Your Name"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.example.zoommod.ZoomMod"
+    ]
+  }
+}

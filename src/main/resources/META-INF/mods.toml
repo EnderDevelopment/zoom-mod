@@ -1,0 +1,23 @@
+[[mods]]
+modId="zoommod"
+version="${file.jarVersion}"
+displayName="Zoom Mod"
+credits="Created using Minecraft Forge"
+authors="Your Name"
+description='''
+A mod that allows changing the zoom level.
+'''
+
+[[dependencies.zoommod]]
+modId="forge"
+mandatory=true
+versionRange="[40,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.zoommod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,1.19)"
+ordering="NONE"
+side="BOTH"
